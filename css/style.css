@@ -1,0 +1,46 @@
+html, 
+body {
+	font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+#search-container, #list-div {
+  max-width: 240px;
+  padding: 10px 0;
+  /*border:1px solid #2a2e31;*/
+  float: left;
+}
+form {
+  position: relative;
+  display: inline-block;
+}
+#search {
+  display: inline-block;
+  width: 215px;
+  padding: 8px 0 10px 15px;
+  font-size: 11pt;
+  background: #bcbcbc;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  text-indent: 60px;
+}
+label {
+  display: inline-block;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px 8px;
+  color: #bcbcbc;
+  background: #2d3035;
+  border-top-left-radius: 3px;
+}
+
+#map {
+  height: 100%;
+}
+#map-div {
+  height: 600px;
+  max-width: 1000px;
+  padding-bottom: 5%;
+}
