@@ -5,6 +5,11 @@ A single page application featuring a map of naighborhood. Including live search
 
 Click [HERE](http://guanxiaomin.github.io/FEND-project-5-neighbor-map/) to view neighborhood map.
 
+##Usage
+1. Download all files under this repository
+2. Open the `index.html` in your browser
+3. Enjoy!
+
 ##Key Features
 * Live searching
 * Foursquare API allocated

@@ -49,7 +49,7 @@ function getFourSquare(name, lat, lng, marker) {
   var fourSqURL = 'https://api.foursquare.com/v2/venues/search?client_id=KPJVGNXT2YLGWI5BNBBTYM2DJ5INCF5KEUMTYNLTLKBZHASB&client_secret=W2ABQ51JQIYTIXRSO0OHEMWWL13BE5VME2TD5XDBZPXF4N3S&v=20130815&ll=' + lat + ',' +lng;
   $.getJSON(fourSqURL).done(function(data) {
       var item = data.response.venues[0];
-      var infoContent = '<h1>'+ item.name + '</h1>' + 
+      var infoContent = '<h4>'+ item.name + '</h4>' + 
         '<p>' + item.contact.formattedPhone +'</p>'+
         '<p>' + item.stats.checkinsCount +" Checkins" +'</p>'+
         '<p>' + item.url + '</p>'+
