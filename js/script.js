@@ -29,6 +29,11 @@ function initMap() {
   map.fitBounds(bounds);
 }
 
+function googleMapError(e) {
+  // console.log("google map error");
+  alert("Google Map Could Not Be Loaded, Please Check.");
+}
+
 // location class with marker and info window
 function Point(name, lat, lng) {
 
